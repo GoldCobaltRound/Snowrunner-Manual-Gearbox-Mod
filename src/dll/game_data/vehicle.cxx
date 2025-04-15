@@ -26,9 +26,9 @@ bool Vehicle::ShiftToNextGear() {
   std::int32_t gear = TruckAction->Gear_1 + 1;
 
   // Skip Neutral
-  if (gear == 0) {
-    gear = 1;
-  }
+  // if (gear == 0) {
+  //   gear = 1;
+  // }
 
   return ShiftToGear(std::min(gear, GetMaxGear()));
 }
@@ -37,9 +37,9 @@ bool Vehicle::ShiftToPrevGear() {
   auto gear = static_cast<std::int32_t>(TruckAction->Gear_1) - 1;
 
   // Skip Neutral
-  if (gear == 0) {
-    gear = -1;
-  }
+  // if (gear == 0) {
+  //   gear = -1;
+  // }
 
   return ShiftToGear(std::max(gear, -1));
 }
