@@ -56,8 +56,8 @@ target_include_directories(${TARGET_NAME}
     PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
 )
 target_link_libraries(${TARGET_NAME}
-    PUBLIC fmt::fmt
-    PUBLIC spdlog::spdlog
+    PUBLIC fmt::fmt-header-only
+    PUBLIC spdlog::spdlog_header_only
     PUBLIC Boost::boost
     PUBLIC xinput
 )

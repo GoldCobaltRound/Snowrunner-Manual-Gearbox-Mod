@@ -15,6 +15,6 @@ target_compile_definitions(${TARGET_NAME}
     PUBLIC SPDLOG_FMT_EXTERNAL
 )
 target_link_libraries(${TARGET_NAME}
-    PUBLIC fmt::fmt
-    PUBLIC spdlog::spdlog
+    PUBLIC fmt::fmt-header-only
+    PUBLIC spdlog::spdlog_header_only
 )
