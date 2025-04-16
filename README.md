@@ -2,11 +2,13 @@
 
 Disables 'auto' gear shifting in favor of manual shifting through custom keybindings for keyboard and gamepads.
 
-**Currently Logitech Driving Force Shifter and other joystick-type devices are not supported, but I'm working on it.**
+**Currently Logitech Driving Force Shifter and other joystick-type devices are not supported.**
+
+Original work by [Ferrster](https://github.com/Ferrster/Snowrunner-Manual-Gearbox-Mod).
 
 ## Installation
 
-1. Get the latest release [here](https://github.com/Ferrster/Snowrunner-Manual-Gearbox-Mod/releases)
+1. Get the latest release [here](https://github.com/GoldCobaltRound/Snowrunner-Manual-Gearbox-Mod/releases)
 1. Extract _.dll_ and _.exe_ files from archive into the game folder, where _SnowRunner.exe_ is located
 1. Start SnowRunner
 1. Run _smgm-loader.exe_ to apply the mod
@@ -68,7 +70,7 @@ To apply new changes you must restart the mod.
 * Gearbox UI is not updated when you shift gears
 * First gear will be labeled as _Low+_ if your truck has that gear
 * No engine stalling
-* You can use _Diff Lock_ when the truck is on first gear. But only while you hold the in-game key for shifting gears
+* You can use _Diff Lock_ when the truck is on first gear
 * Key presses are captured even when game is collapsed
 
 ## Building
