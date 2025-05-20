@@ -55,7 +55,7 @@ void Init(HINSTANCE hinst, DWORD dwReason, LPVOID reserved) {
   spdlog::set_level(spdlog::level::debug);
   spdlog::set_pattern("[%H:%M:%S %z] [%n] [%^---%L---%$] [thread %t] %v");
 
-  LOG_DEBUG("SnowRunner Manual Gearbox Cobalt v0.1.17");
+  LOG_DEBUG("SnowRunner Manual Gearbox Cobalt v0.1.18");
 
   if (!g_IniConfig.WriteDefaultConfig()) {
     g_IniConfig.Read();
